@@ -1,0 +1,7 @@
+.DS_store
+.vscode/extensions
+.vscode/cli
+.vscode/argv.json
+.tmux
+.config/alacritty/themes
+.config/raycast
