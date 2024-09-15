@@ -1,0 +1,134 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin.accentColor": "pink",
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "base": "#131516",
+      "mantle": "#131414",
+      "crust": "#020202"
+    }
+  },
+  "catppuccin.customUIColors": {
+    "mocha": {
+      "statusBar.foreground": "accent"
+    }
+  },
+  "editor.renderWhitespace": "all",
+  "editor.codeActionsOnSave": {},
+  "editor.fontFamily": "Dank Mono",
+  "editor.snippetSuggestions": "top",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.fontVariations": false,
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": false,
+  "editor.quickSuggestionsDelay": 5,
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "gitlens.graph.layout": "editor",
+  "git.enableSmartCommit": true,
+  "symbols.hidesExplorerArrows": false,
+  "editor.lineHeight": 1.8,
+  "workbench.activityBar.location": "hidden",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.scrollbar.vertical": "hidden",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.inheritEnv": false,
+  "window.titleBarStyle": "custom",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".pane-body": "padding: 0px",
+    ".pane-header": "padding: 0 8px",
+    ".split-view-view:first-child .pane-header": "display: none importance;",
+    "monaco-list-row": "border-radius: 4px"
+  },
+  "python.terminal.launchArgs": [],
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "sqltools.connections": [],
+  "editor.minimap.enabled": false,
+  "cSpell.userWords": [
+    "catboost",
+    "dataframe",
+    "dtype",
+    "isna",
+    "nunique",
+    "xgboost"
+  ],
+  "workbench.startupEditor": "none",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/bin/python",
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": ["l"]
+    },
+    {
+      "before": ["o"],
+      "after": ["k"]
+    },
+    {
+      "before": ["l"],
+      "after": ["j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["h"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": ["l"]
+    },
+    {
+      "before": ["o"],
+      "after": ["k"]
+    },
+    {
+      "before": ["l"],
+      "after": ["j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["h"]
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "interactiveWindow.executeWithShiftEnter": true,
+  "git.autofetch": true,
+  "vim.startInInsertMode": true,
+  "workbench.iconTheme": "symbols"
+}
