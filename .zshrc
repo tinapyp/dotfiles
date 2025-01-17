@@ -60,3 +60,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 alias vim="nvim"
 
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export JAVA_HOME=$(brew --prefix openjdk)/libexec/openjdk.jdk/Contents/Home
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
